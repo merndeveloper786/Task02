@@ -265,14 +265,12 @@ function check() {
             ans.text("");
           }
         } else {
-          // feedback.text("Try Again");
           guess = [];
           round++; // ✅ Increase round only if not final
         }
       }
     }
   } else {
-    feedback.text("CHOOSE MORE PINS DUMBASS");
   }
 }
 // check button on click
@@ -335,7 +333,6 @@ $("#reset").click(function () {
   white = 0;
   round = 1;
   results = [];
-  feedback.text("New game loaded");
   win = undefined;
   selectedGuessPin = undefined;
   col_id = undefined;

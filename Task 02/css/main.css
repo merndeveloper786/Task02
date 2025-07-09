@@ -511,11 +511,6 @@ input:checked + .slider:before {
     .gameplay {
       display: block;
     }
-    .feedback_container {
-      padding: 20px 10px 5px 10px;
-      font-size: 12px;
-      height: 100px;
-    }
   }
 }
 
